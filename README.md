@@ -225,11 +225,15 @@ The README uses the notebook's actual exported plots as a visual story: **observ
 
 The timelapse gives a quick visual overview of the changing optical scene before the phenology and health calculations are introduced.
 
-<video src="readme_assets/sentinel2_true_color_timelapse.mp4" controls width="100%"></video>
+<p align="center">
+  <img src="readme_assets/sentinel2_true_color_timelapse.gif"
+       alt="Sentinel-2 True Color Timelapse"
+       width="900">
+</p>
 
-> **GitHub:** GitHub does not consistently render HTML video players inside Markdown. The file is therefore also linked directly below. Upload `sentinel2_true_color_timelapse.mp4` into the `readme_assets/` folder alongside the PNGs.
+> **Sentinel-2 temporal view:** the animation shows the true-color optical observations across the available dates before the phenology, crop-classification, and health-scoring steps.
 
-[▶ Open the Sentinel-2 true-color timelapse](readme_assets/sentinel2_true_color_timelapse.mp4)
+[▶ Open the Sentinel-2 true-color timelapse GIF](readme_assets/sentinel2_true_color_timelapse.gif)
 
 ### 6.2 Optical crop classification
 
@@ -484,7 +488,7 @@ These outputs are designed for field-level GIS use and are also exported as GeoT
 
 | Visual | What it explains |
 |---|---|
-| Sentinel-2 timelapse | Temporal context of the optical observations |
+| Sentinel-2 true-color timelapse | Temporal context of the optical observations |
 | Cluster/template curves | How phenology clusters are mapped to crop templates |
 | Confidence diagnostics | Where crop assignments are uncertain |
 | Optical crop map | Spatial distribution of inferred crop types |
